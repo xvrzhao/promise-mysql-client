@@ -11,7 +11,7 @@ $ npm i promise-mysql-client
 ```
 
 ## Demo
-```
+``` javascript
 const Client = require('promise-mysql-client')
 
 // connect to server in synchronous code
@@ -35,7 +35,7 @@ setTimeout(() => {
 
 ## Query Sequence
 
-```
+``` javascript
 const sqlStr1 = "sql statement"
 const sqlStr2 = "sql statement"
 const sqlStr3 = "sql statement"
@@ -48,7 +48,7 @@ mysql.query(sqlStr3)
 
 ## Coroutines Style
 
-```
+``` javascript
 const sqlStr1 = "sql statement"
 const sqlStr2 = "sql statement"
 const sqlStr3 = "sql statement"
@@ -67,7 +67,7 @@ const sqlStr3 = "sql statement"
 
 ## Reconnect after Close
 
-```
+``` javascript
 mysql.close().then(() => {
     console.log('disconnected')
     mysql.connect() // will connect at process.nextTick 
