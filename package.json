@@ -1,0 +1,33 @@
+{
+  "name": "promise-mysql-client",
+  "version": "0.0.1",
+  "description": "A MySQL protocol client that provides the Promise APIs but allows you to separate `query` operations from the callback of the `connect` operation.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xvrzhao/promise-mysql-client.git"
+  },
+  "keywords": [
+    "mysql-client",
+    "mysql-protocol",
+    "mysql-driver",
+    "nodejs-mysql",
+    "promise-api",
+    "async-await",
+    "promise",
+    "nodejs",
+    "mysql"
+  ],
+  "author": "Xavier Zhao <xvrzhao@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xvrzhao/promise-mysql-client/issues"
+  },
+  "homepage": "https://github.com/xvrzhao/promise-mysql-client#readme"
+}
