@@ -1,7 +1,7 @@
 {
   "name": "promise-mysql-client",
   "version": "0.0.1",
-  "description": "A MySQL protocol client that provides the Promise APIs but allows you to separate `query` operations from the callback of the `connect` operation.",
+  "description": "A MySQL protocol client that provides the Promise APIs but allows you to separate `query` operations from the callback or `then` of the `connect` operation.",
   "main": "index.js",
   "directories": {
     "lib": "lib"

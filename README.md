@@ -1,6 +1,6 @@
 # Promise MySQL Client
 
-A MySQL protocol client that provides the Promise APIs but allows you to separate `query` operations from the callback of the `connect` operation.
+A MySQL protocol client that provides the Promise APIs but allows you to separate `query` operations from the callback or `then` of the `connect` operation.
 
 *Supports MySQL server 5.7.5+*
 
